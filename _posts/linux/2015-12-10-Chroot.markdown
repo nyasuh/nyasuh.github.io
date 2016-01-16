@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Chroot"
+date:   2015-12-10 00:49:37
+description: ''
+tags:
+- linux
+categories: 
+- linux
+---
+### To find out the device :
+>> **# lsblk**  
+>> **# mount /dev/sda2 /mnt** 
+
+### Mount the temporary api filesystems: ###
+>> **# cd /mnt**  
+>> **# mount -t proc proc proc/**  
+>> **# mount --rbind /sys sys/**  
+>> **# mount --rbind /dev dev/**  
+>> **# mount --rbind /run run/**  
+
+### To use an internet connection in the chroot environment copy over the DNS details: 
+>> **# cp /etc/resolv.conf etc/resolv.conf** 
+
+### To change root into a bash shell: 
+>> **# chroot /mnt /bin/bash** 
+
+### Note: If you see the error:
+>>chroot: cannot run command '/usr/bin/bash': Exec format error, it is likely that the architectures of the host environment and chroot environment do not match.  
+>>chroot: '/usr/bin/bash': permission denied, remount with the exec permission: `mount -o remount,exec /mnt`
+
+### After chrooting it may be necessary to load the local bash configuration: 
+>> **# source /etc/profile**  
+>> **# source ~/.bashrc**  
+>> **# export PS1="(chroot) $PS1"**  
+

@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 
   <link rel="shortcut icon" href="/favicon">
-  <title>Welcome to Jekyll!</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <title>Jekyll</title>
+  <meta name="description" content="What is jekyll ?Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS...">
   <link rel="canonical" href="/posts/jekyll/welcome-to-jekyll.html">
   <link rel="alternate" type="application/rss+xml" title="Nyasuh" href="/feed.xml" />
 
@@ -38,7 +38,7 @@
 
 <!-- dropdown content, for small and med -->
 <ul id="dropdown-mobile_nav" class="dropdown-content">
-  <li><a href="/category">Category</a></li>
+  <li><a href="/archive">Archive</a></li>
   <li><a href="/about">About</a></li>
   <li><a href="/feed.xml">RSS</a></li>
 </ul>
@@ -51,7 +51,7 @@
     
     <!-- for lagre -->
     <ul class="right hide-on-med-and-down nav-list">
-      <li class="waves-effect waves-light"><a href="/category" class=" white-text"><i class="mdi mdi-archive left"></i>Category</a></li>
+      <li class="waves-effect waves-light"><a href="/archive" class=" white-text"><i class="mdi mdi-library-books left"></i>Archive</a></li>
       <li class="waves-effect waves-light"><a href="/about" class=" white-text"><i class="mdi mdi-account left"></i>About</a></li>
       <li class="waves-effect waves-light"><a href="/feed.xml" class=" white-text"><i class="mdi mdi-rss left"></i>RSS</a></li>
     </ul>
@@ -85,7 +85,7 @@
     </p>
 
     <header class="post-header">
-      <h1 class="post-title">Welcome to Jekyll!</h1>
+      <h1 class="post-title">Jekyll</h1>
 
       <i class="post-tag mdi mdi-tag-multiple waves-effect waves-light"></i>
       
@@ -94,17 +94,36 @@
     </header>
 
     <article class="post-content">
-      <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+      <h3>What is jekyll ?</h3>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind <a href="https://pages.github.com">GitHub Pages</a> which you can use to host sites right from your GitHub repositories.  </p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<h3>Quick start</h3>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
+<span class="err">$</span> <span class="n">jekyll</span> <span class="kp">new</span> <span class="n">my</span><span class="o">-</span><span class="n">awesome</span><span class="o">-</span><span class="n">site</span>
+<span class="err">$</span> <span class="n">cd</span> <span class="n">my</span><span class="o">-</span><span class="n">awesome</span><span class="o">-</span><span class="n">site</span>
+<span class="err">$</span> <span class="n">jekyll</span> <span class="n">serve</span>
+<span class="c1"># =&gt; Now browse to http://localhost:4000 </span></code></pre></figure>
+
+<h3>Deploy to Github pages</h3>
+
+<ol>
+<li>Create a repository and name repository with format <code>username.github.io</code></li>
+<li><p>Clone the repository 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">git</span> <span class="nb">clone</span> <span class="ss">https</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">username</span><span class="o">/</span><span class="n">username</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span> </code></pre></figure></p></li>
+<li><p>Create site 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">jekyll</span> <span class="kp">new</span> <span class="n">site</span></code></pre></figure></p></li>
+<li><p>Move all in site 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">mv</span> <span class="n">site</span><span class="o">/*</span> <span class="n">username</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span> </code></pre></figure></p></li>
+<li><p>Enter the project folder 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">cd</span> <span class="n">username</span><span class="o">.</span><span class="n">github</span><span class="o">.</span><span class="n">io</span></code></pre></figure></p></li>
+<li><p>Push it : 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">git</span> <span class="n">add</span> <span class="o">--</span><span class="n">all</span>
+<span class="err">$</span> <span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;fush&quot;</span>
+<span class="err">$</span> <span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">master</span></code></pre></figure></p></li>
+<li><p>You&#39;re done, go to <code>http://username.github.io</code></p></li>
+</ol>
 
 <p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
 
@@ -118,7 +137,7 @@
   <i class="mdi mdi-share-variant material-icons small grey-text waves-effect waves-light"></i>
 
   <a href="https://plus.google.com/share?url=/posts/jekyll/welcome-to-jekyll.html" class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Google+"><i class="mdi mdi-google-plus white-text"></i></a>
-  <a href="https://twitter.com/intent/tweet?text=Welcome to Jekyll!&url=/posts/jekyll/welcome-to-jekyll.html&via=twitter&related=twitter" class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Twitter"><i class="mdi mdi-twitter white-text"></i></a>
+  <a href="https://twitter.com/intent/tweet?text=Jekyll&url=/posts/jekyll/welcome-to-jekyll.html&via=R_wahyudi24&related=R_wahyudi24" class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Twitter"><i class="mdi mdi-twitter white-text"></i></a>
   <a href="https://facebook.com/sharer.php?u=/posts/jekyll/welcome-to-jekyll.html" class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Facebook"><i class="mdi mdi-facebook white-text"></i></a>
 </div>
 
@@ -127,7 +146,7 @@
   <i class="mdi mdi-share-variant waves-effect waves-light small tooltipped grey-text" data-position="bottom" data-delay="50" data-tooltip="Share"></i>
 
   <a href="https://plus.google.com/share?url=/posts/jekyll/welcome-to-jekyll.html" class="waves-effect waves-light btn-floating"><i class="mdi mdi-google-plus white-text"></i></a>
-  <a href="https://twitter.com/intent/tweet?text=Welcome to Jekyll!&url=/posts/jekyll/welcome-to-jekyll.html&via=twitter&related=twitter" class="waves-effect waves-light btn-floating"><i class="mdi mdi-twitter white-text"></i></a>
+  <a href="https://twitter.com/intent/tweet?text=Jekyll&url=/posts/jekyll/welcome-to-jekyll.html&via=R_wahyudi24&related=R_wahyudi24" class="waves-effect waves-light btn-floating"><i class="mdi mdi-twitter white-text"></i></a>
   <a href="https://facebook.com/sharer.php?u=/posts/jekyll/welcome-to-jekyll.html" class="waves-effect waves-light btn-floating"><i class="mdi mdi-facebook white-text"></i></a>
 </div>
 
@@ -145,7 +164,7 @@
     {
         disqus_loaded = true;
         var disqus_shortname = 'zoldyck';
-        var disqus_title = 'Welcome to Jekyll!';
+        var disqus_title = 'Jekyll';
         var disqus_url = '/posts/jekyll/welcome-to-jekyll.html';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
@@ -174,9 +193,9 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">About</h5>
+          <h5 class="white-text">Need More <i class="mdi mdi-coffee-to-go"></i> Nyasuh </a></h5>
           <p class="grey-text text-lighten-4">
-              "Need more coffee"
+              <i class="mdi mdi-coffee-to-go"> Coffee is a plant and the name of the drink that is made from this plant. The coffee plant is a bush or tree that can grow up to ten meters (about 32 feet) high, but is usually cut shorter. Coffee plants originally grew in Africa, and now also grow in South America, Central America and Southeast Asia. They are an important crop for the economies of many countries</i>
           </p>
         </div>
         <div class="col l4 offset-12 s12 right">
@@ -186,10 +205,10 @@
             <li><a href="https://facebook.com/rochmanwah" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-facebook-box"></i>  Facebook</a></li>
             
             
-            <li><a href="https://twitter.com/twitter" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-twitter-box"></i>  Twitter</a></li>
+            <li><a href="https://twitter.com/R_wahyudi24" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-twitter-box"></i>  Twitter</a></li>
             
             
-            <li><a href="https://github.com/nyasuh" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-github-box"></i>Github</a></li>
+            <li><a href="https://github.com/nyasuhh" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-github-box"></i>Github</a></li>
             
           </ul>
         </div>
