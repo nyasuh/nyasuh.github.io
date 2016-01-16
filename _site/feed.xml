@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nyasuh</title>
+    <description>Need more coffee</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 16 Jan 2016 12:12:49 +0700</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 12:12:49 +0700</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Include Video With Poster</title>
+        <description>&lt;h2&gt;Video With Poster&lt;/h2&gt;
+
+&lt;p&gt;James Bond 007 - &lt;code&gt;Spectre&lt;/code&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;&lt;video width=&quot;640&quot; height=&quot;360&quot; src=&quot;/assets/video/Sam Smith - Writing&#39;s On The Wall (from Spectre).mp4&quot; autobuffer controls poster=&quot;/assets/img/crowd.png&quot;&gt;
+&lt;/video&gt;&lt;/center&gt;  &lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;video&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;640&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;360&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;/assets/video/Sam Smith - Writing&amp;#39;s On The Wall (from Spectre).mp4&amp;quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;autobuffer&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;controls&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;poster&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;/assets/img/crowd.png&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/video&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Tue, 10 Nov 2015 07:49:37 +0700</pubDate>
+        <link>/posts/jekyll/Video-with-poster.html</link>
+        <guid isPermaLink="true">/posts/jekyll/Video-with-poster.html</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Hyperlinked &amp; Including Images on Jekyll Post </title>
+        <description>&lt;h2&gt;Including images, pdf &amp;amp; hyperlinked images&lt;/h2&gt;
+
+&lt;p&gt;Chances are, at some point, you’ll want to include images, downloads, or other digital assets along with your text content. While the syntax for linking to these resources differs between Markdown and Textile, the problem of working out where to store these files in your site is something everyone will face.&lt;/p&gt;
+
+&lt;p&gt;Because of Jekyll’s flexibility, there are many solutions to how to do this. One common solution is to create a folder in the root of the project directory called something like &lt;strong&gt;&lt;code&gt;assets&lt;/code&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;code&gt;bla bla..&lt;/code&gt;&lt;/strong&gt;, into which any images, downloads or other resources are placed. Then, from within any post, they can be linked to using the site’s root as the path for the asset to include. Again, this will depend on the way your site’s (sub)domain and path are configured, but here some examples (in Markdown).   &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Including an image in a post :&lt;/strong&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;!&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;anu&lt;span class=&quot;o&quot;&gt;](&lt;/span&gt;/assets/img/jekyll.jpg&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Will be Show :&lt;/strong&gt;
+&lt;img src=&quot;/assets/img/jekyll.png&quot; alt=&quot;anu&quot;&gt;  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Linking to a PDF for readers to download :&lt;/strong&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;You can &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Get the PDF&lt;span class=&quot;o&quot;&gt;](&lt;/span&gt;/assets/pdf/rootmagz-042015.pdf&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; directly.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Will be Show :&lt;/strong&gt;&lt;br&gt;
+You can &lt;a href=&quot;/assets/pdf/rootmagz-042015.pdf&quot;&gt;Get the PDF&lt;/a&gt; directly.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Hyperlinked Images :&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;!&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;info&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/assets/img/jekyll.png&lt;span class=&quot;o&quot;&gt;)][&lt;/span&gt;jekyll&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;jekyll&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;: http://jekyllrb.com/docs/posts/#including-images-and-resources/ &lt;span class=&quot;s2&quot;&gt;&amp;quot;Click to visit&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+  
+
+&lt;p&gt;&lt;strong&gt;Will be Show :&lt;/strong&gt; 
+&lt;a href=&quot;http://jekyllrb.com/docs/posts/#including-images-and-resources/&quot; title=&quot;Click to visit&quot;&gt;&lt;img src=&quot;/assets/img/jekyll.png&quot; alt=&quot;info&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Nov 2015 10:21:35 +0700</pubDate>
+        <link>/posts/jekyll/hyperlinked.html</link>
+        <guid isPermaLink="true">/posts/jekyll/hyperlinked.html</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Nov 2015 07:49:37 +0700</pubDate>
+        <link>/posts/jekyll/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/posts/jekyll/welcome-to-jekyll.html</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>

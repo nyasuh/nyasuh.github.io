@@ -1,0 +1,44 @@
+# Site settings
+
+author: Nyasuh
+email: nyasuh.dot@gmail.com
+twitter_username: twitter
+github_username:  nyasuh
+googleplus_username: google
+facebook_username: rochmanwah
+instagram_username:  "nyasuh"
+disqus_username: zoldyck
+tumblr_username : zoldyck-dot
+title: Nyasuh
+
+baseurl: ""    # the subpath of your site
+url: ""
+
+description: "Need more coffee"
+
+favo: "Whoami ?"
+descrpt: "Do you know me ?"
+
+#
+# Build settings
+#
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["fenced_code_blocks", "superscript"]
+
+highlighter: pygments
+
+sass:
+    style: compressed
+
+permalink: /posts/:categories/:title.html
+
+paginate: 7
+#paginate_path: 'page/:num'
+
+gems: [jekyll-paginate]
+
+
+# commentted option
+#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
