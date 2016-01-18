@@ -34,7 +34,7 @@ sass:
 
 permalink: /posts/:categories/:title.html
 
-paginate: 7
+paginate: 4
 #paginate_path: 'page/:num'
 
 gems: [jekyll-paginate]

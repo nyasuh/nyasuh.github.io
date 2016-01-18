@@ -1,0 +1,156 @@
+---
+layout: post
+title:  "Linux-eBook"
+date:   2016-01-14 00:49:37
+description: ''
+tags:
+- linux
+categories: 
+- linux
+---
+### Linux 101 Hacks eBook, by Ramesh Natarajan
+#### Contains 12 chapters with total of 271 pages.
+<p align="center"><img itemprop="image"  src="/assets/img/ebook.jpg" width="450" height="500"/></p>
+##### Table of content :
+Chapter 1: Powerful CD Command Hacks
+
+    Hack 1. Define CD Base Directory Using CDPATH
+    Hack 2. Use CD Alias to Navigate Up the Directory
+    Hack 3. Perform mkdir and cd Using a Single Command
+    Hack 4. Toggle Between Directories
+    Hack 5. Manipulate Directory Stack
+    Hack 6. Automatically Correct Mistyped Directory Names
+
+Chapter 2: Essential Linux Commands
+
+    Hack 7. Grep Command
+    Hack 8. Regular Expression in Grep
+    Hack 9. Find Command
+    Hack 10. Suppress Standard Output and Error Message
+    Hack 11. Join Command
+    Hack 12. Change the Case
+    Hack 13. Xargs Command
+    Hack 14. Sort Command
+    Hack 15. Uniq Command
+    Hack 16. Cut Command
+    Hack 17. Stat Command
+    Hack 18. Diff Command
+    Hack 19. Display Total Connect Time of Users
+    Hack 20. Execute Commands in the Background
+    Hack 21. Sed Basics – Find and Replace Using RegEx
+    Hack 22. Awk Introduction – Print Examples
+    Hack 23. Vim Editor Navigation Fundamentals
+    Hack 24. Chmod Command Examples
+    Hack 25. View Multiple Log Files in One Terminal
+    Hack 26. Less Command
+    Hack 27. Wget Examples
+
+Chapter 3: SSH Commands and Tips
+
+    Hack 28. Debug SSH Client Session
+    Hack 29. Toggle SSH Session using SSH Escape Character
+    Hack 30. Display SSH Session Statistics
+    Hack 31. Change OpenSSH Security Options
+    Hack 32. Transfer All PuTTY Sessions
+
+Chapter 4: Date Manipulation
+
+    Hack 33. Set System Date and Time
+    Hack 34. Set Hardware Date and Time
+    Hack 35. Display Date and Time in a Specific Format
+    Hack 36. Display Past Date and Time
+    Hack 37. Display Future Date and Time
+
+Chapter 5: PS1, PS2, PS3, PS4 and PROMPT_COMMAND
+
+    Hack 38. PS1 – Default Interaction Prompt
+    Hack 39. PS2 – Continuation Interactive Prompt
+    Hack 40. PS3 – Prompt Used by Select Command
+    Hack 41. PS4 – Prompt to Prefix Tracing Output
+    Hack 42. PROMPT_COMMAND
+    Hack 43. Customize Bash Prompt Using PS1
+    Hack 44. Colorful Bash Prompt Using PS1
+
+Chapter 6: Archive and Compression
+
+    Hack 45. Zip Command Basics
+    Hack 46. Zip Command Advanced Compression
+    Hack 47. Password Protection of Zip files
+    Hack 48. Tar Command Examples
+    Hack 49. Combine gzip, bzip2 with Tar
+    Hack 50. BZ is Eazy! Bz* Command Examples
+    Hack 51. Cpio Examples
+
+Chapter 7: Command Line History
+
+    Hack 52. Bash Command Line History Examples
+    Hack 53. History Related Environment Variables
+    Hack 54. History Expansion Examples
+
+Chapter 8: System Administration Tasks
+
+    Hack 55. Partition Using fdisk
+    Hack 56. Format a Partition Using mke2fsk
+    Hack 57. Mount a Partition
+    Hack 58. Fine Tune a Partition Using tune2fs
+    Hack 59. Create a Swap File System
+    Hack 60. Create a New User
+    Hack 61. Create a New Group
+    Hack 62. Setup SSH Passwordless Login in OpenSSH
+    Hack 63. Use ssh-copy-id Along With ssh-agent
+    Hack 64. Crontab Examples
+    Hack 65. Safe Reboot Of Linux Using Magic SysRq Key
+    Hack 66. Linux Parted Command Examples
+    Hack 67. Rsync Command Examples
+    Hack 68. Chkconfig Command Examples
+    Hack 69. How to Setup Anacron
+    Hack 70. IPTables Rules Examples
+
+Chapter 9: Install Packages
+
+    Hack 71. Yum Command Examples
+    Hack 72. RPM Command Examples
+    Hack 73. apt-* Command Examples
+    Hack 74. Install from Source
+
+Chapter 10: LAMP Stack
+
+    Hack 75. Install Apache 2 with SSL
+    Hack 76. Install PHP from Source
+    Hack 77. Install MySQL
+    Hack 78. Install LAMP Stack
+    Hack 79. Install XAMPP
+    Hack 80. Secure Your Apache Web Server
+    Hack 81. Apachectl and Httpd Tips
+    Hack 82. Setup Apache Virtual Host Configuration
+    Hack 83. Rotate Apache Logs Files
+
+Chapter 11: Bash Scripting
+
+    Hack 84. Execution Sequence of .bash_* file
+    Hack 85. Bash FOR Loops Using C Like Syntax
+    Hack 86. Debug a Shell Script
+    Hack 87. Quoting
+    Hack 88. Read Data File Fields Inside a Shell Script
+
+Chapter 12: System Monitoring and Performance
+
+    Hack 89. Free Command
+    Hack 90. Top Command
+    Hack 91. Df Command
+    Hack 92. Du Command
+    Hack 93. Lsof Commands
+    Hack 94. Vmstat Command
+    Hack 95. Netstat Command
+    Hack 96. Sysctl Command
+    Hack 97. Nice Command
+    Hack 98. Renice Command
+    Hack 99. Kill Command
+    Hack 100. Ps Command
+    Hack 101. Sar Command
+  
+##### Download [Here] [linux]
+<b>Source</b> [GeekStuff] [ebook] 
+
+[ebook]: http://www.thegeekstuff.com/linux-101-hacks-ebook
+[linux]: /assets/pdf/Linux-101-Hacks.pdf
