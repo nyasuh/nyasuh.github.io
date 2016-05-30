@@ -10,7 +10,7 @@ layout: default
     
     <p class="grey-text">
       <i class="mdi mdi-calendar"></i>&nbsp;
-      {% if page.date %}{{ page.date | date: "%b %-d, %Y" }}{% else %}unknown{% endif %}
+      {% if page.date %}{{ page.date | date: "%b %-d, %Y" }}{% else %}null{% endif %}
       &nbsp;&nbsp;<i class="mdi mdi-account-circle"></i>&nbsp;
       {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
       &nbsp;&nbsp;<i class="mdi mdi-label"></i>&nbsp;

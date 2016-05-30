@@ -5,9 +5,14 @@
 <div class="hide-on-small-only">
   <i class="mdi mdi-share-variant material-icons small grey-text waves-effect waves-light"></i>
 
-  <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url | prepend: site.baseurl }}" class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Google+"><i class="mdi mdi-google-plus white-text"></i></a>
-  <a href="https://twitter.com/intent/tweet?text={% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}&url={{ site.url }}{{ page.url | prepend: site.baseurl }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Twitter"><i class="mdi mdi-twitter white-text"></i></a>
-  <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url | prepend: site.baseurl }}" class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Facebook"><i class="mdi mdi-facebook white-text"></i></a>
+  <a href="https://plus.google.com/share?url=nyasuh.github.io{{ page.url | prepend: site.baseurl }}" onclick="window.open(this.href, 'google-plus-share', 'width=700,height=530');return false;" title="Share on Google+"  class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Google+"><i class="mdi mdi-google-plus white-text"></i></a>
+
+
+  <a href="https://twitter.com/intent/tweet?text=&quot;{{ page.twitter_text }}&quot;%20nyasuh.github.io{{ page.url }}%20via%20&#64;{{ site.twitter_username }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=500');return false;" title="Share on Twitter" class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Twitter"><i class="mdi mdi-twitter white-text"></i></a>
+
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=nyasuh.github.io{{ page.url | prepend: site.baseurl }}" onclick="window.open(this.href, 'facebook-share','width=700,height=500');return false;" title="Share on Facebook" 
+  class="waves-effect waves-light btn tooltipped" data-position="bottom" data-delay="20" data-tooltip="Share on Facebook"><i class="mdi mdi-facebook white-text"></i></a>
 </div>
 
 <!-- small screen device -->

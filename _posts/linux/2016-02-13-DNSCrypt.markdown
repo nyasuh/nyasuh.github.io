@@ -1,0 +1,73 @@
+---
+layout: post
+title:  "Dnscrypt"
+date:   2016-02-13 00:49:37
+description: ''
+tags:
+- linux
+categories: 
+- linux
+---
+
+### What is DNSCrypt ? :
+[DNSCrypt] [source] is a protocol that authenticates communications between a DNS client and a DNS resolver. It prevents DNS spoofing. It uses cryptographic signatures to verify that responses originate from the chosen DNS resolver and haven't been tampered with. Read this [DNSCrypt] [source]  
+[DNSCrypt] [source1] encrypts and authenticates DNS traffic between user and DNS resolver. While IP traffic itself is unchanged, it prevents local spoofing of DNS queries, ensuring DNS responses are sent by the server of choice. Read this [DNSCrypt] [source1].  
+[DNSCrypt] [source2] A protocol for securing communications between a client and a DNS resolver.  
+### Installation : 
+{% highlight ruby %}
+$ sudo pacman -S dnscrypt-proxy 
+{% endhighlight %}
+Or download on [This] [dnscrypt], choose your architecture, then `download from mirror`
+and install it with :
+{% highlight ruby %}
+$ sudo pacman -U dnscrypt-proxy-1.6.1-1-x86_64.pkg.tar.xz 
+{% endhighlight %}
+
+Create file with name **anu.service** in /etc/systemd/system/
+{% highlight ruby %}
+$ sudo nano /etc/systemd/system/anu.service 
+{% endhighlight %}
+
+Write this code :
+{% highlight ruby %}
+[Unit]
+Description=anu
+After=network.target
+Wants=network.target
+
+[Service]
+ExecStart=/usr/bin/dnscrypt-proxy --local-address=127.0.0.5:53 --resolver-name=ipredator --ephemeral-keys
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target 
+{% endhighlight %}
+
+Then, activation the service :
+{% highlight ruby %}
+$ sudo systemctl enable anu.service 
+$ sudo systemctl start anu.service
+{% endhighlight %}
+
+Go to network manager settings :
+{% highlight ruby %}
+$ nm-connection-editor
+{% endhighlight %}
+Choose edit :
+<p align="center"><img itemprop="image"  src="/assets/img/dnscrypt1.png" width="450" height="390"/></p>
+
+<p align="center"><img itemprop="image"  src="/assets/img/dnscrypt2.png" width="450" height="460"/></p>
+
+Restart your connection 
+{% highlight ruby %}
+$ sudo systemctl restart NetworkManager
+{% endhighlight %}
+Or Disconnect and Connect
+<p align="center"><img itemprop="image"  src="/assets/img/dnscrypt3.png" width="300" height="250"/></p>
+
+Check this for more [Source] [source1]
+
+[source]: https://dnscrypt.org
+[source1]:      https://wiki.archlinux.org/index.php/DNSCrypt
+[source2]:   https://github.com/jedisct1/dnscrypt-proxy
+[dnscrypt]: https://www.archlinux.org/packages/?name=dnscrypt-proxy
