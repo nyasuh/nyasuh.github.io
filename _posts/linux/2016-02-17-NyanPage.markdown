@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "NyanPage"
+date:   2016-02-17 00:49:37
+description: ''
+tags:
+- linux
+categories: 
+- linux
+---
+
+### What is NyanPage ? :
+This is my startpage, using [Materializecss] [source1] and [Fontawesome] [source2].  
+Well, let's do this :
+### Installation : 
+You must install git to clone this repo :
+{% highlight ruby %}
+$ sudo pacman -S git 
+$ git clone https://github.com/nyasuh/Nyasuh.git 
+{% endhighlight %}
+Or download on it [NyanPage] [source] Choose `download as zip`  
+To setting the startpage on firefox, go to preference, like this :
+<p align="center"><img itemprop="image"  src="/assets/img/firefox1.png"></p>  
+- - - -
+In the `/home/kaze/startpage/index.html` change to your directory that you save the NyanPage.   
+Example : `/home/(your username)/startpage/index.html`  
+### look like this 
+- - - -
+
+<p align="center"><img itemprop="image"  src="/assets/img/nyanpage.png"></p>
+- - - -
+
+Check this for more [Source] [source]
+
+[source]: https://github.com/nyasuh/Nyasuh
+[source1]:      http://materializecss.com/
+[source2]:   http://fontawesome.io/

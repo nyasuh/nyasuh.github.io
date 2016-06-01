@@ -5,9 +5,91 @@
     <description>Need more coffee</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 May 2016 21:34:25 +0700</pubDate>
-    <lastBuildDate>Mon, 30 May 2016 21:34:25 +0700</lastBuildDate>
+    <pubDate>Wed, 01 Jun 2016 16:59:49 +0700</pubDate>
+    <lastBuildDate>Wed, 01 Jun 2016 16:59:49 +0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>NyAsuh</title>
+        <description>&lt;h3&gt;Why NyAsuh ? :&lt;/h3&gt;
+
+&lt;p&gt;Well, Sekarang saya akan menggunakan bahasa negara saya yg Tercinta (mungkin), kalo pake bahasa linggis, mungkin udah sekarat ngolah kata-nya, abis berapa kopi dan rokok kalonya gitu&lt;br&gt;
+Kenapa nda pake gugel translate ? plis deh, dia ngawur, kadang bener kadang endak, banyak bener-nya sih, tapi AhSUdahlah, lebih enak Manual, apa pembaca demikian bertanya atau menggerutu, karena masih ada bahasa linggis ? itu di karena kan, hanya itu saja yang paling lancar, BeHahah..&lt;br&gt;
+Well go to the Hell, eh, Go to the main topic..&lt;br&gt;
+kenapa NyAsuh ?&lt;br&gt;
+Berawal dari kata Ny dan Asuh, Ny adalah Nyan &lt;a href=&quot;http://cdn.head-fi.org/0/0a/900x900px-LL-0ac00d63_NyanCatFace2.png&quot;&gt;Cek ini&lt;/a&gt;, udah tau Nyan? yap, Kuceng, kenapa Kuceng? karena saya suka kuceng, karena lucu, imut kayak kamu, iyaa kamu yang disana&lt;br&gt;
+Sekarang Asuh, pasti tau lah apa itu Asuh &lt;a href=&quot;http://s.kaskus.id/images/2013/11/01/2412500_201311010328260376.png&quot;&gt;Cek ini&lt;/a&gt; Kalau yang nda tau, udah tau Asuh? yep, Anjeng, Kenapa Anjeng, Karena saya nda suka&lt;br&gt;
+Kurang lebih (boleh kurang atau lebih, di tawar aja) kayak samudra Atlantik dan Mediterania nda bisa bersatu, kayak aku dan kamu waktu itu, iyaa, kamuu..&lt;br&gt;
+Sekarang udah tau Sejarah terbentuknya Undang-undang dasar 1945, eh, Maksudnya papan yang anda baca saat ini (wew Papan yang anda baca, plis, jangan aneh aneh )&lt;br&gt;
+Udah, Sekian dulu, ntar Revisi ulang, udah mau maghrib, noh liat gambar  &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img itemprop=&quot;image&quot;  src=&quot;/assets/img/time.png&quot;&gt;&lt;/p&gt;
+  
+
+&lt;h4&gt;&lt;p align=&quot;center&quot;&gt;Fuck Off.  &lt;/p&gt;&lt;/h4&gt;
+
+&lt;hr&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img itemprop=&quot;image&quot;  src=&quot;/assets/img/fuck.jpg&quot;&gt;&lt;/p&gt;  
+
+&lt;hr&gt;
+</description>
+        <pubDate>Sun, 01 May 2016 07:49:37 +0700</pubDate>
+        <link>/posts/suck/NyAsuh.html</link>
+        <guid isPermaLink="true">/posts/suck/NyAsuh.html</guid>
+        
+        <category>Suck</category>
+        
+        
+        <category>Suck</category>
+        
+      </item>
+    
+      <item>
+        <title>NyanPage</title>
+        <description>&lt;h3&gt;What is NyanPage ? :&lt;/h3&gt;
+
+&lt;p&gt;This is my startpage, using &lt;a href=&quot;http://materializecss.com/&quot;&gt;Materializecss&lt;/a&gt; and &lt;a href=&quot;http://fontawesome.io/&quot;&gt;Fontawesome&lt;/a&gt;.&lt;br&gt;
+Well, let&amp;#39;s do this :&lt;/p&gt;
+
+&lt;h3&gt;Installation :&lt;/h3&gt;
+
+&lt;p&gt;You must install git to clone this repo :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pacman&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;S&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; 
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nyasuh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Nyasuh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Or download on it &lt;a href=&quot;https://github.com/nyasuh/Nyasuh&quot;&gt;NyanPage&lt;/a&gt; Choose &lt;code&gt;download as zip&lt;/code&gt;&lt;br&gt;
+To setting the startpage on firefox, go to preference, like this :
+&lt;p align=&quot;center&quot;&gt;&lt;img itemprop=&quot;image&quot;  src=&quot;/assets/img/firefox1.png&quot;&gt;&lt;/p&gt;  &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;In the &lt;code&gt;/home/kaze/startpage/index.html&lt;/code&gt; change to your directory that you save the NyanPage.&lt;br&gt;
+Example : &lt;code&gt;/home/(your username)/startpage/index.html&lt;/code&gt;  &lt;/p&gt;
+
+&lt;h3&gt;look like this&lt;/h3&gt;
+
+&lt;hr&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img itemprop=&quot;image&quot;  src=&quot;/assets/img/nyanpage.png&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Check this for more &lt;a href=&quot;https://github.com/nyasuh/Nyasuh&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Feb 2016 07:49:37 +0700</pubDate>
+        <link>/posts/linux/NyanPage.html</link>
+        <guid isPermaLink="true">/posts/linux/NyanPage.html</guid>
+        
+        <category>linux</category>
+        
+        
+        <category>linux</category>
+        
+      </item>
     
       <item>
         <title>NyanBox</title>
@@ -307,16 +389,17 @@ On this article I will show my Openbox config.&lt;/p&gt;
 
 &lt;span class=&quot;c1&quot;&gt;# End of config&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;This the Show :&lt;br&gt;
-Running Cava, Feh, Scrot&lt;/p&gt;
+&lt;h3&gt;Look like This :&lt;/h3&gt;
+
+&lt;p&gt;Running Cava, Feh, Scrot&lt;/p&gt;
 
 &lt;p align=&quot;center&quot;&gt;&lt;img itemprop=&quot;image&quot;  src=&quot;/assets/img/nyanbox.png&quot; &gt;&lt;/p&gt;
 
 &lt;p&gt;Check this for more config &lt;a href=&quot;https://github.com/nyasuh/dot&quot;&gt;Nyasuh&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Feb 2016 07:49:37 +0700</pubDate>
-        <link>/posts/linux/NyaBox.html</link>
-        <guid isPermaLink="true">/posts/linux/NyaBox.html</guid>
+        <link>/posts/linux/NyanBox.html</link>
+        <guid isPermaLink="true">/posts/linux/NyanBox.html</guid>
         
         <category>linux</category>
         

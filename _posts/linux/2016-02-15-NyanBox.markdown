@@ -321,7 +321,7 @@ launcher_item_app = ~/.config/openbox/launcher/ncmpcpp.desktop
 
 {% endhighlight %}
 
-This the Show :  
+### Look like This :  
 Running Cava, Feh, Scrot
 
 <p align="center"><img itemprop="image"  src="/assets/img/nyanbox.png" ></p>
