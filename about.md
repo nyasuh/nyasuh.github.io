@@ -11,6 +11,7 @@ permalink: /about/
 This [jekyll](https://jekyllrb.com) theme is build with [materialize](http://materializecss.com).
 
 
+
 - - -
 ### Personal information
 Email: {{ site.email }}

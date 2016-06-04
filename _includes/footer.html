@@ -11,19 +11,25 @@
         <div class="col l4 offset-12 s12 right">
           <h5 class="white-text">Social</h5>
           <ul>
+<!--              {% if site.instagram_username %}
+            <li><a href="https://instagram.com/{{ site.instagram_username }}" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-instagram"></i>  Instagram</a></li>
+            {% endif %}-->
             {% if site.facebook_username %}
-            <li><a href="https://facebook.com/{{ site.facebook_username }}" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-facebook-box"></i>  Facebook</a></li>
+            <li><a href="https://facebook.com/{{ site.facebook_username }}" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-2"><i class="mdi mdi-facebook-box"></i>  Facebook</a></li>
             {% endif %}
             {% if site.twitter_username %}
-            <li><a href="https://twitter.com/{{ site.twitter_username }}" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-twitter-box"></i>  Twitter</a></li>
+            <li><a href="https://twitter.com/{{ site.twitter_username }}" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-3"><i class="mdi mdi-twitter-box"></i>  Twitter</a></li>
             {% endif %}
             {% if site.github_username %}
-            <li><a href="https://github.com/{{ site.github_username }}" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-1"><i class="mdi mdi-github-box"></i>Github</a></li>
+            <li><a href="https://github.com/{{ site.github_username }}" class="white-text text-lighten-3 btn waves-effect waves-light teal darken-4"><i class="mdi mdi-github-box"></i>Github</a></li>
             {% endif %}
           </ul>
         </div>
       </div>
     </div>
+
+
+
     <div class="footer-copyright">
       <div class="container">
         Build with <i class="mdi mdi-coffee-to-go"></i> Nyasuh </a>
